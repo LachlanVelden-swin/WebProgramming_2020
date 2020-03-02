@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+}
+
+.social {
+    display: flex;
+}
+
+.social button {
+    font-size: 14px;
+    width: 50%;
+    border: 0;
+    padding: 10px;
+    color: white;
+}
+
+.social button.facebook {
+    background-color: #3d599b;
+}
+
+.social button.twitter {
+    background-color: #53abf1;
+}
+
+.details {}
+
+.inline-group {
+    display: flex;
+    padding: 10px;
+}
+
+.inline-group .input-group {
+    padding: 0px;
+    font-size: 14px;
+    width: 50%;
+}
+
+.input-group {
+    padding: 10px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 5px;
+}
