@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+}
+.header {
+    background-color: green;
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    padding: 200px;
+}
+
+.header h1 {
+    margin: 0;
+}
