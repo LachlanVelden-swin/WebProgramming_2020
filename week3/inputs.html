@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="number" name="value1" id="value1" />
+    <br />
+    <input type="number" name="value2" id="value2" />
+
+    <button id="button">Click Me</button>
+    <script type="text/javascript">
+        let value1Input = document.getElementById("value1");
+        let value2Input = document.getElementById("value2");
+        let button = document.getElementById("button");
+
+        console.log(value1Input.value);
+        console.log(value2Input.value);
+
+        button.onclick = buttonClicked;
+        function buttonClicked() {
+            let value1 = Number(value1Input.value);
+            let value2 = parseInt(value2Input.value);
+            console.log(value1 + value2)
+        }
+
+    </script>
+</body>
+
+</html>

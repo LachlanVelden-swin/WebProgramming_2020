@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button id="clickMeButton">Click me</button> 
+    <br />
+    <button id="dontClickMeButton">Dont Click me</button>
+
+
+    <script type="text/javascript">
+        /*/
+        you might need to create a div with a new id to 
+        make this work (or use the dont click me button that we have already created)
+
+        1. Create a variable that will store the count
+        2. Handle an onclick event for a button, that:
+            2.1. increses the counter by one
+            2.2. updates an element on the webpage with that new count value
+        
+        /*/
+        let count = 0;
+
+        let clickMeButton = document.getElementById("clickMeButton");
+        clickMeButton.onclick = onButtonClick;
+
+        function onButtonClick() {
+            console.log("Button clicked");
+            clickMeButton.innerHTML = "bob clicked me";
+        }
+
+    </script>
+</body>
+</html>
